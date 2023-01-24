@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/rara-tan/argocd-orphan.git
     targetRevision: HEAD
-    path: transfer-before
+    path: transfer-after
   destination:
     server: https://kubernetes.default.svc
     namespace: default
