@@ -30,12 +30,5 @@ spec:
       containers:
         - name: web
           image: tutum/hello-world
-          resources:
-            limits:
-              cpu: "100m"
-              memory: "64Mi"
-            requests:
-              cpu: "100m"
-              memory: "64Mi"
           ports:
             - containerPort: 80
