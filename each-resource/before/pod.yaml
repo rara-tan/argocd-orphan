@@ -5,6 +5,8 @@ metadata:
     run: test-pod
   name: test-pod
   namespace: each-resource
+  annotations:
+    argocd.argoproj.io/sync-options: Prune=false
 spec:
   containers:
   - image: nginx
