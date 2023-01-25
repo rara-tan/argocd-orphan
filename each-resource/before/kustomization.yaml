@@ -3,6 +3,3 @@ kind: Kustomization
 resources:
   # - ./namespace.yaml
   - ./pod.yaml
-generatorOptions:
-  annotations:
-    argocd.argoproj.io/compare-options: IgnoreExtraneous
